@@ -25,13 +25,12 @@ a {
 .header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
 }
 
-.logo {
-    font-weight: 700;
-    font-size: 24px;
-    color: #f9faf8;
+.logo img {
+    width: 84px;
+    height: 84px;
 }
 
 .hero {
@@ -62,8 +61,8 @@ a {
     margin: 14px;
 }
 
-.dog {
-    width: 600px;
+.face {
+    width: 400px;
     height: auto;
 }
 
@@ -112,4 +111,35 @@ a {
     font-weight: 800;
     text-align: end;
     padding-right: 30px;
+}
+
+.action {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    font-size: 20px;
+    margin: 200px;
+    padding: 50px 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.one {
+    font-weight: 700;
+}
+
+.button2 {
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid white;
+    font-weight: 600;
+    padding: 5px 25px;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: #E5E7EB;
+    font-size: 20px;
+    padding: 50px ;
 }
