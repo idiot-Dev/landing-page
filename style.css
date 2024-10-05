@@ -38,6 +38,7 @@ a {
     display: flex;
     justify-content: space-between;
     padding: 40px 0px;
+    gap: 10px;
 }
 
 .hero1{
@@ -62,6 +63,37 @@ a {
 }
 
 .dog {
-    width: 400px;
+    width: 600px;
     height: auto;
 }
+
+.head{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+/* start of the mid */
+.mid {
+    text-align: center;
+    margin: 50px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info {
+    max-width: 500px;
+}
+
+.img {
+    border: 5px solid #3882f6;
+    border-radius: 15px;
+    width: 210px;
+    height: 210px;
+}
+
